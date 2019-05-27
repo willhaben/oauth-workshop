@@ -143,6 +143,7 @@ You need
 
 * clone spring boot boilerplate repo: http://bit.ly/wh-oauth-java +
  https://github.com/willhaben/oauth-workshop-java-template
+* if you get stuck *ask* Michael, Mingkang or me *for help*
 
 
 == Task 1 - Implicit Flow
