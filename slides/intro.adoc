@@ -2,26 +2,64 @@
 
 = OAuth 2.0 workshop
 
+image:java_meetup.jpeg[willhaben,400]
+
 sponsored by
 
-image:wh_logo.svg[willhaben,400]
+image:wh_logo.svg[willhaben,300]
 
 == About me
 
 Matthias Kausl
 
-Team lead and Java dev @ willhaben
+team lead and Java dev @ willhaben
 
 blog: https://tech.willhaben.at/[tech.willhaben.at]
 
-twitter: @willhabentech
+twitter: https://twitter.com/willhabentech[@willhabentech]
+
+== https://jobsbei.willhaben.at/[jobsbei.willhaben.at]
+
+* Senior Software Engineer (m/f/x)
+* Scrum Master (m/f/x)
+* Senior Operations Engineer (m/f/x)
+* Senior Web Engineer (m/f/x)
+
+== The first rule of cryptography
+
+[.fragment]
+*Don't implement your own*
+
+[.fragment]
+There are better alternatives than +
+you can come up with
+
+== cryptography done right is hard
+
+Handling cryptographic keys, certificates, tokens, etc. +
+and designing secure protocols is also *hard*
+
+[.fragment]
+*Don't design your own +
+[authentication|authorization|encryption] +
+protocol/framework*
+
+== OAuth 2.0
+
+is a solid choice
+to secure applications +
+for many use cases
+
+[.fragment]
+*but how does it work?*
+
 
 == Motivation
 
-* currently implementing OAuth 2.0 @willhaben
+* we are *currently implementing OAuth 2.0* @willhaben
 * not everyone had knowledge about it
 * lots of frameworks that implement OAuth 2.0
-* look "under the hood" to understand it better
+* look *under the hood* to understand it better
 
 == Goal
 
@@ -63,7 +101,7 @@ see also https://www.okta.com/identity-101/authentication-vs-authorization/[auth
 | *client* | any application +
 e.g. desktop or web app (with server backend), single page app (without server), ...
 | *resource* | something the user has access to +
-e.g. REST API accessing your google calendar
+e.g. REST API for google calendar
 |===
 
 == Vocabulary
@@ -141,9 +179,9 @@ You need
 
 === Lets start coding
 
-* clone spring boot boilerplate repo: http://bit.ly/wh-oauth-java +
- https://github.com/willhaben/oauth-workshop-java-template
-* if you get stuck *ask* Michael, Mingkang or me *for help*
+* clone spring boot boilerplate repo: +
+ http://bit.ly/wh-oauth-java
+* if you get stuck *ask Michael, Mingkang or Matthias* for help
 
 
 == Task 1 - Implicit Flow

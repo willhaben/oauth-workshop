@@ -25,3 +25,4 @@ To complete this task, access this resource using the new *access token*:
 
  https://5ddwj6qy0l.execute-api.eu-central-1.amazonaws.com/prod/task3
 
+You succeeded if the resource responds with `200 OK`.

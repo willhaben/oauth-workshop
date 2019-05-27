@@ -64,3 +64,4 @@ To complete the task, use the `access_token` to access this resource
 
  https://5ddwj6qy0l.execute-api.eu-central-1.amazonaws.com/prod/task2
 
+You succeeded if the resource responds with `200 OK`.

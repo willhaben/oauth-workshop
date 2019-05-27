@@ -36,5 +36,7 @@ Extract the `id_token` and use it to access the protected resource:
 
  https://5ddwj6qy0l.execute-api.eu-central-1.amazonaws.com/prod/task1
 
+You succeeded if the resource responds with `200 OK`.
+
 
 
